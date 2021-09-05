@@ -242,7 +242,7 @@ public class Alarm extends AppCompatActivity {
 
                                 String linkaddress = "https://www.google.com/maps/place/?q="+LAT1+","+LONG1;
                                 String finalsms = "Need Help! Track Me"+"\n"+linkaddress;
-//                                String phonenumber1 ="+916265364241";
+
                                 try {
                                     SmsManager sms = SmsManager.getDefault(); // using android SmsManager
 //                                    sms.sendTextMessage(phonenumber1, null, finalsms, null, null);
